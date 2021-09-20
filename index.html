@@ -12,6 +12,25 @@
     <div class="container">
         <div class="weather-app-wrapper">
             <div class="weather-app">
+            <form class="search-form">
+                <div class="row">
+                <div class="col-9">
+                <input 
+                type="search"
+                placeholder="Type your city..."
+                class="form-control shadow-sm"
+                autofocus="on"
+                autocomplete="off">
+                </div>
+                <div class="col-3">
+                <input
+                type="submit"
+                value="Search"
+                class="form-control btn btn-primary shadow-sm"/></div>
+                </div>
+            </form>
+            </div>
+            <div class="weather-app">
         <ul class="date-time">
             <li>
             Monday, April 27th
@@ -23,7 +42,8 @@
     <h2>London</h2>
     <img src="img/sun.png" alt="sun" class="weather-icon">
     <div class="clearfix">
-    <h1 class="float-start temp">20°C</h1>
+    <h1 class="float-start temp">20</h1>
+    <a href="#">°C</a>/<a href="#">°F</a>
     <ul class="float-end daily-info">
         <li>Sunny</li>
         <li>Precipitation: 10%</li>
@@ -38,7 +58,7 @@
         <div class="col-3">Monday</div>
     </div>
 </div>
-    Open-Source Code by Rei Arahata
+    <p class="credit">Open-Source Code by Rei Arahata</p>
 </div> 
  </div>
     <script src="src/app.js"></script>
