@@ -40,15 +40,19 @@ ul {
 }
 
 .temp {
-    font-size: 52px;
-    margin: 0 auto;
+    font-size: 50px;
+    margin: 0 0 0 30px;
 }
 
 .daily-info {
-    font-size: 20px;
+    font-size: 18px;
     margin: 0;
 }
 
 .col-3 {
+    text-align: center;
+}
+
+.credit {
     text-align: center;
 }
