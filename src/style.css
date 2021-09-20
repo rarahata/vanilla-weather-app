@@ -1,3 +1,50 @@
-h1 {
-    color: blue;
+h2 {
+    text-align: center;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.weather-app-wrapper {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.weather-app {
+    border: 1px solid;
+    border-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.clearfix {
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.weather-icon {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.date-time {
+    text-align: center;
+    line-height: 40px;
+}
+
+.temp {
+    font-size: 52px;
+    margin: 0 auto;
+}
+
+.daily-info {
+    font-size: 20px;
+    margin: 0;
 }

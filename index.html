@@ -10,7 +10,9 @@
 </head>
 <body>
     <div class="container">
-        <ul>
+        <div class="weather-app-wrapper">
+            <div class="weather-app">
+        <ul class="date-time">
             <li>
             Monday, April 27th
             </li>
@@ -19,8 +21,16 @@
             </li>
         </ul>
     <h2>London</h2>
-    <img src="img/sun.png" alt="sun">
-    <h1>10°C</h1>
+    <img src="img/sun.png" alt="sun" class="weather-icon">
+    <div class="clearfix">
+    <h1 class="float-start temp">20°C</h1>
+    <ul class="float-end daily-info">
+        <li>Sunny</li>
+        <li>Precipitation: 10%</li>
+        <li>Humidity: 70%</li>
+    </div>
+</div>
+<div class="weather-app">
     <div class="row">
         <div class="col-3">Monday</div>
         <div class="col-3">Monday</div>
@@ -28,6 +38,9 @@
         <div class="col-3">Monday</div>
     </div>
 </div>
+    Open-Source Code by Rei Arahata
+</div> 
+ </div>
     <script src="src/app.js"></script>
 </body>
 </html>
