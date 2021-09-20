@@ -48,3 +48,7 @@ ul {
     font-size: 20px;
     margin: 0;
 }
+
+.col-3 {
+    text-align: center;
+}
