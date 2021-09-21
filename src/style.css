@@ -8,6 +8,10 @@ ul {
     padding: 0;
 }
 
+li::first-letter{
+    text-transform: capitalize;
+}
+
 a {
     text-decoration: none;
 }
