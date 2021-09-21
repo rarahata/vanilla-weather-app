@@ -8,6 +8,10 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 .weather-app-wrapper {
     margin: 20px auto;
