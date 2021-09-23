@@ -1,7 +1,12 @@
-h2 {
+h1 {
     text-align: center;
+    line-height: 50px;
+    margin-bottom: 0;
 }
 
+p {
+    text-align: center;
+}
 
 ul {
     list-style: none;
@@ -39,7 +44,7 @@ a {
 .weather-icon {
     display: block;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0 0 20px 0;
 }
 
 .date-time {
