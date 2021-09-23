@@ -58,6 +58,15 @@ a {
     margin: 0 0 0 30px;
 }
 
+.active {
+  color: black;
+}
+
+.active:hover {
+  color: black;
+  cursor: default;
+}
+
 .daily-info {
     font-size: 18px;
     margin: 0;
