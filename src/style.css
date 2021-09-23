@@ -44,8 +44,9 @@ a {
 .weather-icon {
     display: block;
     margin: 0 auto;
-    padding: 0 0 20px 0;
+    padding: 10px;
 }
+
 
 .date-time {
     text-align: center;
