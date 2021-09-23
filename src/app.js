@@ -9,6 +9,7 @@ function formatTime(timestamp){
         hours = `0${hours}`;
     }
     return `${hours}:${minutes}`;
+}
 
 function showTemperature(response){
     let cityElement = document.querySelector("#city");
