@@ -12,11 +12,17 @@ function formatTime(timestamp){
 }
 
 function showFahrenheit(event){
+  event.preventDefault();
+  fahrenheitElement.classList.add("active");
+  celsiusElement.classList.remove("active");
   let fahrenheitTemp = document.querySelector("#temp");
   fahrenheitTemp.innerHTML = Math.round((celciusTemperature * 9/5) + 32);
 }
 
 function showCelsius(event){
+  event.preventDefault();
+  fahrenheitElement.classList.remove("active");
+  celsiusElement.classList.add("active");
   let celsiusTemp = document.querySelector("#temp");
   celsiusTemp.innerHTML = Math.round(celciusTemperature);
 }
