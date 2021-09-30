@@ -1,7 +1,6 @@
 h1 {
     text-align: center;
     line-height: 50px;
-    margin-bottom: 0;
 }
 
 p {
@@ -36,7 +35,7 @@ a {
 }
 
 .clearfix {
-    max-width: 300px;
+    max-width: 320px;
     display: block;
     margin: 0 auto;
 }
@@ -55,7 +54,6 @@ a {
 
 .temp {
     font-size: 50px;
-    margin: 0 0 0 30px;
 }
 
 .active {

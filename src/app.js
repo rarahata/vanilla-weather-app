@@ -1,6 +1,8 @@
 function formatTime(timestamp){
     let date = new Date(timestamp);
     let hours = date.getHours();
+    let days = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+    let day = days[date.getDay()];
     let minutes = date.getMinutes();
     if (minutes < 10){
         minutes = `0${minutes}`;
@@ -8,7 +10,7 @@ function formatTime(timestamp){
     if (hours < 10){
         hours = `0${hours}`;
     }
-    return `${hours}:${minutes}`;
+    return `${day} ${hours}:${minutes}`;
 }
 
 function showFahrenheit(event){
@@ -67,4 +69,6 @@ fahrenheitLink.addEventListener("click", showFahrenheit);
 
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", showCelsius);
+
+search("New York");
 
